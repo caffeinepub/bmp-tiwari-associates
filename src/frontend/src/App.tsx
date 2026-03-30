@@ -175,7 +175,7 @@ function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
+    <header className="sticky top-0 z-50 bg-background border-b border-border shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -234,7 +234,7 @@ function Navbar() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="lg:hidden bg-white border-t border-border px-4 pb-4"
+            className="lg:hidden bg-background border-t border-border px-4 pb-4"
           >
             {NAV_LINKS.map((link) => (
               <button

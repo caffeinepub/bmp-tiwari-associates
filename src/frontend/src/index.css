@@ -11,22 +11,22 @@
     --primary-foreground: 100 0 0;
 
     /* Dark wine/deep pink for footers & dark sections */
-    --navy: 20 0.15 0;
+    --navy: 18 0.12 0;
 
-    /* Page background: pure white */
-    --background: 100 0 0;
-    --foreground: 22 0.01 5;
+    /* Page background: dark charcoal */
+    --background: 18 0.02 270;
+    --foreground: 95 0.01 0;
 
-    /* Card */
-    --card: 100 0 0;
-    --card-foreground: 22 0.01 5;
+    /* Card: slightly lighter dark */
+    --card: 22 0.02 270;
+    --card-foreground: 95 0.01 0;
 
-    /* Light pink tint for muted sections */
-    --muted: 97 0.01 5;
-    --muted-foreground: 53 0.02 5;
+    /* Muted: medium dark */
+    --muted: 25 0.02 270;
+    --muted-foreground: 72 0.02 0;
 
-    --secondary: 97 0.01 5;
-    --secondary-foreground: 22 0.01 5;
+    --secondary: 25 0.02 270;
+    --secondary-foreground: 95 0.01 0;
 
     --accent: 50 0.25 0;
     --accent-foreground: 100 0 0;
@@ -34,14 +34,14 @@
     --destructive: 50.6 0.24 29;
     --destructive-foreground: 100 0 0;
 
-    --border: 92 0.01 5;
-    --input: 92 0.01 5;
+    --border: 32 0.02 270;
+    --input: 32 0.02 270;
     --ring: 50 0.25 0;
 
     --radius: 0.5rem;
 
-    --popover: 100 0 0;
-    --popover-foreground: 22 0.01 5;
+    --popover: 22 0.02 270;
+    --popover-foreground: 95 0.01 0;
   }
 }
 
