@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary deep rose-pink */
+    --primary: 50 0.25 0;
+    --primary-foreground: 100 0 0;
+
+    /* Dark wine/deep pink for footers & dark sections */
+    --navy: 20 0.15 0;
+
+    /* Page background: pure white */
+    --background: 100 0 0;
+    --foreground: 22 0.01 5;
+
+    /* Card */
+    --card: 100 0 0;
+    --card-foreground: 22 0.01 5;
+
+    /* Light pink tint for muted sections */
+    --muted: 97 0.01 5;
+    --muted-foreground: 53 0.02 5;
+
+    --secondary: 97 0.01 5;
+    --secondary-foreground: 22 0.01 5;
+
+    --accent: 50 0.25 0;
+    --accent-foreground: 100 0 0;
+
+    --destructive: 50.6 0.24 29;
+    --destructive-foreground: 100 0 0;
+
+    --border: 92 0.01 5;
+    --input: 92 0.01 5;
+    --ring: 50 0.25 0;
+
+    --radius: 0.5rem;
+
+    --popover: 100 0 0;
+    --popover-foreground: 22 0.01 5;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
